@@ -1,3 +1,13 @@
+Problem
+Objective
+Methodology
+
+Key Insights
+
+Recommendations
+
+Next Steps:
+
 Tell a Story: Begin by defining the problem, stating the goal, and explaining the methodology used.
 
 Highlight Key Insights: Showcase the most important findings from your data exploration and visualization.
