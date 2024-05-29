@@ -1,4 +1,4 @@
-# Exploratory Data Analysis on Vehical Sales in the USA from 
+# Exploratory Data Analysis on Vehical Sales in the USA from 1982-2015
 
 ------ A project overview should be a few sentences long stating the problem you solved, what data was used in the project, and your modeling results.
 
