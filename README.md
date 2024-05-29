@@ -1,17 +1,27 @@
-Problem
-Objective
-Methodology
+# Exploratory Data Analysis on Vehical Sales in the USA from 
 
-Key Insights
+------ A project overview should be a few sentences long stating the problem you solved, what data was used in the project, and your modeling results.
 
-Recommendations
+Market Analysis: Researchers and analysts can utilize this dataset to study trends in the automotive market, including pricing fluctuations based on factors such as vehicle condition and mileage.
 
-Next Steps:
+###  File Descriptions
+<details>
+<summary>Expand/Collapse</summary>
 
-Tell a Story: Begin by defining the problem, stating the goal, and explaining the methodology used.
+  - [data](https://github.com/aprilhong/bankchurn/tree/main/data) : folder containing all data files
+    - **car_prices.csv**: raw dataset from [Kaggle](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data)
+  - **vehicalsales.ipynb** : jupyter notebook with EDA 
+</details>
+  
+# Executive Summary
 
-Highlight Key Insights: Showcase the most important findings from your data exploration and visualization.
+## 1. Exploratory Data Analysis
+Explain what data you used in your analysis, the timeframe of the data, and any data limitations. This is also a good section to add visualizations of your exploratory data analysis.
+  1. Data Discovery
+  2. Data Cleaning
+  3. Variable Analysis
+  4. Tableau Sales Dashboard
 
-Offer Recommendations: Clearly state what actions or decisions your analysis suggests. Don’t assume that the implications are obvious.
+## Conclusion
+In the conclusion section explain the recommendations you have in solving the business problem and highlight any future steps you will take to expand on your project,
 
-Outline Next Steps: If applicable, discuss what would come next, whether it’s further analysis or the next phase of the project.
