@@ -23,6 +23,7 @@ However, some cleaning is required before predicting on this dataset. The [Vehic
     - **car_prices.csv**: raw dataset from [Kaggle](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data)
     - **df_cleaned.csv**: cleaned dataset exported from notebook
   - **vehicalsales.ipynb** : jupyter notebook with EDA and Data Cleaning
+  - **plots.py** : module with plotting functions used in the notebook
 
 
 
