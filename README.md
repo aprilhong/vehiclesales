@@ -1,4 +1,4 @@
-# :red_car: :broom:  Exploratory Data Analysis and Data Cleaning of Vehical Sales Dataset 
+## :red_car: Exploratory Data Analysis and Data Cleaning of Vehical Sales Dataset :broom:  
 
 Dataset obtained from [Kaggle](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data) provides in-depth details on each vehicle (make, model, year, features) alongside sales information (price, date). It even goes a step further, including estimated market values to help you track market trends. Additionally, you can analyze how a car's condition and mileage affect its selling price.
 
