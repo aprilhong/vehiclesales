@@ -1,27 +1,28 @@
-# Exploratory Data Analysis on Vehical Sales in the USA from 1982-2015
+# Exploratory Data Analysis on Vehical Sales 
 
------- A project overview should be a few sentences long stating the problem you solved, what data was used in the project, and your modeling results.
+Dataset obtained from [Kaggle](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data) provides in-depth details on each vehicle (make, model, year, features) alongside sales information (price, date). It even goes a step further, including estimated market values to help you track market trends. Additionally, you can analyze how a car's condition and mileage affect its selling price.
 
-Market Analysis: Researchers and analysts can utilize this dataset to study trends in the automotive market, including pricing fluctuations based on factors such as vehicle condition and mileage.
+However, some cleaning is required before predicting on this dataset. The [Vehicle Sales Notebook](https://github.com/aprilhong/vehiclesales/blob/main/vehiclesales.ipynb) showcases the exploratory data analysis and cleaning process. 
 
-###  File Descriptions
-<details>
-<summary>Expand/Collapse</summary>
+**Issues discovered through early exploratory analysis**
+  - duplicated categorical values with different formats (ex. Toyota vs toyota)
+  - data entry errors with values placed in the wrong columns
 
+**Methodologies** 
+- Removing duplicate categorical values
+- Spliting and Joining dataframes
+- Filling in missing data based on existing values
+  - For example, vehicle model can be found if both make and trim are available. 
+- Imputing missing values with median
+ 
+**Recommendations**
+- The cleaned dataset can be used to forecast vehicle selling price. 
+
+**File Descriptions**
   - [data](https://github.com/aprilhong/bankchurn/tree/main/data) : folder containing all data files
     - **car_prices.csv**: raw dataset from [Kaggle](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data)
-  - **vehicalsales.ipynb** : jupyter notebook with EDA 
-</details>
-  
-# Executive Summary
+    - **df_cleaned.csv**: cleaned dataset exported from notebook
+  - **vehicalsales.ipynb** : jupyter notebook with EDA and Data Cleaning
 
-## 1. Exploratory Data Analysis
-Explain what data you used in your analysis, the timeframe of the data, and any data limitations. This is also a good section to add visualizations of your exploratory data analysis.
-  1. Data Discovery
-  2. Data Cleaning
-  3. Variable Analysis
-  4. Tableau Sales Dashboard
 
-## Conclusion
-In the conclusion section explain the recommendations you have in solving the business problem and highlight any future steps you will take to expand on your project,
 
